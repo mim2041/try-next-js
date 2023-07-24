@@ -1,3 +1,7 @@
+export const metadata = {
+    title: 'Next Hero | About',
+    description: 'Welcome to Next JS',
+}
 
 const AboutPage = () => {
     return (
