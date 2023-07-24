@@ -1,3 +1,5 @@
+"use client";
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -9,16 +11,13 @@ export const metadata = {
 }
 
  const RootLayout = ({ children }) => {
+  console.log('from RootLayout')
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <a href="Home">Home</a>
-        </nav>
+        
         {children}
-        <footer>
-          Footer
-        </footer>
+        
         </body>
     </html>
   )
