@@ -1,19 +1,16 @@
 import image1 from "@/assets/nature1.jpg";
+import PopularProducts from "@/components/HomePage/PopularProducts";
+import Categories from "@/components/HomePage/categories";
 // import image2 from "@/assets/nature2.avif";
 import Image from 'next/image'
+import { Suspense } from "react";
 
 const HomePage =() => {
   return (
     <main>
-      <h1>This is home</h1>
-      <Image 
-      width={600} 
-      height={381.5} 
-      src={image1} 
-      placeholder="blur" alt=""/>
-      {/* <Image width={"600px"} src="/nature1.jpg" blurDataURL="" alt=""/> */}
-      {/* <Image width={600} height={400} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlYK9Wv7779j7HoCkD1GrGli-mmm4bgJobz3FlN7wH&s"
-      placeholder="blur" blurDataUrl="" alt=""/> */}
+      <h1>Home</h1>
+      <Categories/>
+      <Suspense fallback={<h1 className="text-center font-semibold text-2xl">Loading...</h1>}> <PopularProducts></PopularProducts> </Suspense>
     </main>
   )
 }

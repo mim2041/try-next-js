@@ -1,0 +1,137 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "imageUrl": "https://example.com/electronics.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Clothings",
+            "imageUrl": "https://example.com/clothings.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Books",
+            "imageUrl": "https://example.com/books.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Home Decor",
+            "imageUrl": "https://example.com/home-decor.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sports",
+            "imageUrl": "https://example.com/sports.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Beauty",
+            "imageUrl": "https://example.com/beauty.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Toys",
+            "imageUrl": "https://example.com/toys.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Automovie",
+            "imageUrl": "https://example.com/automovie.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Jewelry",
+            "imageUrl": "https://example.com/jewelry.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Kitchenware",
+            "imageUrl": "https://example.com/kitchenware.jpg"
+        }
+    ],
+    "products": [
+        {
+          "id": 1,
+          "title": "Samsung Galaxy S21",
+          "price": 799.99,
+          "categoryId": 1,
+          "features": ["6.2-inch AMOLED display", "Snapdragon 888", "12GB RAM", "128GB storage", "4000mAh battery"],
+          "imageUrl": "https://example.com/samsung-galaxy-s21.jpg"
+        },
+        {
+          "id": 2,
+          "title": "iPhone 13 Pro",
+          "price": 999.00,
+          "categoryId": 2,
+          "features": ["6.1-inch Super Retina XDR display", "A15 Bionic chip", "128GB storage", "Pro camera system", "3100mAh battery"],
+          "imageUrl": "https://example.com/iphone-13-pro.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Google Pixel 6",
+          "price": 699.99,
+          "categoryId": 3,
+          "features": ["6.4-inch OLED display", "Google Tensor chip", "8GB RAM", "128GB storage", "4500mAh battery"],
+          "imageUrl": "https://example.com/google-pixel-6.jpg"
+        },
+        {
+          "id": 4,
+          "title": "OnePlus 9",
+          "price": 699.00,
+          "categoryId": 4,
+          "features": ["6.55-inch Fluid AMOLED display", "Snapdragon 888", "8GB RAM", "128GB storage", "4500mAh battery"],
+          "imageUrl": "https://example.com/oneplus-9.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Xiaomi Mi 11",
+          "price": 649.00,
+          "categoryId": 5,
+          "features": ["6.81-inch AMOLED display", "Snapdragon 888", "8GB RAM", "256GB storage", "4600mAh battery"],
+          "imageUrl": "https://example.com/xiaomi-mi-11.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Sony Xperia 1 III",
+          "price": 1099.99,
+          "categoryId": 6,
+          "features": ["6.5-inch 4K OLED display", "Snapdragon 888", "12GB RAM", "256GB storage", "4500mAh battery"],
+          "imageUrl": "https://example.com/sony-xperia-1-iii.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Motorola Edge 20",
+          "price": 499.00,
+          "categoryId": 7,
+          "features": ["6.7-inch OLED display", "Snapdragon 778G", "6GB RAM", "128GB storage", "4000mAh battery"],
+          "imageUrl": "https://example.com/motorola-edge-20.jpg"
+        },
+        {
+          "id": 8,
+          "title": "LG Velvet 5G",
+          "price": 599.00,
+          "categoryId": 8,
+          "features": ["6.8-inch OLED display", "Snapdragon 765G", "6GB RAM", "128GB storage", "4300mAh battery"],
+          "imageUrl": "https://example.com/lg-velvet-5g.jpg"
+        },
+        {
+          "id": 9,
+          "title": "Nokia 8.3 5G",
+          "price": 479.00,
+          "categoryId": 9,
+          "features": ["6.81-inch IPS LCD display", "Snapdragon 765G", "8GB RAM", "64GB storage", "4500mAh battery"],
+          "imageUrl": "https://example.com/nokia-8-3-5g.jpg"
+        },
+        {
+          "id": 10,
+          "title": "Realme GT 5G",
+          "price": 449.99,
+          "categoryId": 10,
+          "features": ["6.43-inch Super AMOLED display", "Snapdragon 888", "8GB RAM", "128GB storage", "4500mAh battery"],
+          "imageUrl": "https://example.com/realme-gt-5g.jpg"
+        }
+      ]
+      
+}
